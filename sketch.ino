@@ -17,7 +17,7 @@ void setup() {
   Serial.println("WiFi Connected!");
   Serial.println(WiFi.localIP());
   
-  pinMode(LED_BUILTIN, OUTPUT); // Set the built-in LED pin to OUTPUT mode
+  pinMode(LED_BUILTIN, OUTPUT); 
 }
 
 void loop() {
@@ -28,10 +28,9 @@ void loop() {
     Serial.println(httpResponCode);
     if (httpResponCode > 0) {
       String payload = http.getString();
-      payload.trim(); // Remove any leading/trailing whitespace
+      payload.trim(); 
       Serial.print(payload);
 
-      // Perform actions based on the response
       if (payload == "S" || payload.equalsIgnoreCase("stop")) {
         // Action for S: Turn LED off
         Serial.println("Action: Stop (LED OFF)");
