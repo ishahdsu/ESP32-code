@@ -19,4 +19,4 @@ This Task involves an ESP32 microcontroller that connects to WiFi and periodical
 
 **Note**:
 the code works perfectly in these URls: https://s-m.com.sa/r2/test/retrieve.php, https://s-m.com.sa/f.html...etc. But for some reason when I tried to use it with my webpage http://df65-2001-16a2-c0e3-da8-adcd-7af2-1bd8-ee2.ngrok-free.app/fetch_last_move.php 
-it did not work and it has an error 307 Temporary Redirect, I tried to solve it but i did not fined any solution to my problem..
+it did not work and it has an error 307 Temporary Redirect, I tried to solve it but i did not find any solution to my problem..
